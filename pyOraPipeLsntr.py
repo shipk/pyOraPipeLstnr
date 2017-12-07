@@ -64,10 +64,6 @@ class OraPipeViewer(Frame):
         frmMiddle = Frame(self)
         frmMiddle.pack(fill=BOTH, expand=YES)
 
-        frmBottom = Frame(self)
-        frmBottom.pack(side=BOTTOM, fill=X)
-        frmBottom.config(bd=2, relief=SUNKEN)
-
         self.status_bar = StatusBar(self)
         self.status_bar.pack(side=BOTTOM, fill=X)
         self.status_bar.config(bd=2, relief=SUNKEN)
